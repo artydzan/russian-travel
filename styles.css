@@ -1,0 +1,30 @@
+.page {
+    background: #E5E5E5;
+}
+
+.header {
+ position: absolute;
+ width: 1184px;
+ height: 52px;
+ left: 48px;
+ top: 28px;
+}
+
+.header__lang-link {
+ position: absolute;
+ width: 30px;
+ height: 28px;
+ left: 1155px;
+ top: 46px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 28px;
+    /* identical to box height, or 117% */
+    
+ text-align: right;
+ text-decoration-line: underline;
+    
+ color: #FFFFFF;   
+}
