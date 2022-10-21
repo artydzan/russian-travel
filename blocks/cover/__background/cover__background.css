@@ -1,0 +1,63 @@
+.cover__background {
+  background-image: url(../../../images/dmitrii-vaccinium-22833-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  min-height: 740px;
+  max-width: 1184px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s linear;
+  margin: 0 auto;
+  gap: 0;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
+}
+
+.cover__background::before {
+  position: absolute;
+  content: ' ';
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.4s linear;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .cover__background {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__background {
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
