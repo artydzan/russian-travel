@@ -10,7 +10,7 @@
 - Применение CSS Flexbox
 
 ## Технологии
-## HTML, CSS, Git, BEM, Figma.
+### HTML, CSS, Git, BEM, Figma.
 
 ## Ссылки
 - [Ссылка на страницу Проекта](https://github.com/artydzan/russian-travel)
