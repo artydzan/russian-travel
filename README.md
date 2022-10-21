@@ -1,6 +1,6 @@
 # Russian Travel: Путешествие по России
 
-### Описание
+## Описание
 - Адаптивный лендинг про путешествия по России
 
 ## Функционал
@@ -9,13 +9,13 @@
 - Файловая структура BEM Nested
 - Применение CSS Flexbox
 
-## Стек 
-### HTML, CSS, Git, BEM, Figma.
+## Технологии
+## HTML, CSS, Git, BEM, Figma.
 
 ## Ссылки
 - [Ссылка на страницу Проекта](https://github.com/artydzan/russian-travel)
 - [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-#### Статус проекта: в разработке.
+### Статус проекта: в разработке.
 Планы по доработке: 
 - Добвить возможность смены языка страницы на английский
