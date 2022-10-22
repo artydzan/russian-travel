@@ -14,7 +14,7 @@
         <img class="header__logo" src="./images/header__logo.svg" alt="Лого">
         <ul class="header__lang">
           <li class="header__lang-item">
-            <a class="header__lang-link header__lang-link_line" href="#">Ru</a>
+            <a class="header__lang-link header__lang-link_enabled" href="#">Ru</a>
           </li>
           <li class="header__lang-item">
             <a class="header__lang-link" href="#">En</a>
@@ -79,12 +79,12 @@
             </li>
           </ul>
         </section>
-        <section class="photo-grid">
+        <section class="photo-grid" aria-label>
           <img class="photo-grid__item" src="./images/train.jpg" alt="поезд">
           <img class="photo-grid__item" src="./images/atharva-tulsi-472908-unsplash.jpg" alt="облака">
           <img class="photo-grid__item" src="./images/tuman.jpg" alt="туман">
           <img class="photo-grid__item" src="./images/sochi.jpg" alt="Сочи">
-          <img class="photo-grid__item"  src="./images/arisa-chattasa-559627-unsplash.jpg" alt="лёд">
+          <img class="photo-grid__item" src="./images/arisa-chattasa-559627-unsplash.jpg" alt="лёд">
           <img class="photo-grid__item" src="./images/baikal.jpg" alt="берег озера Байкал">
           <img class="photo-grid__item" src="./images/elbrus.jpg" alt="Эльбрус">
           <img class="photo-grid__item" src="./images/stanislav-kondratiev-459423-unsplash.jpg" alt="тетраподы">
@@ -98,7 +98,7 @@
             <h2 class="place__title">Куршская коса</h2>
             <img class="place__image" src="./images/nikita-tikhomirov-1153188-unsplash.jpg" alt="Куршская коса">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru
               </a>
             </div>
@@ -123,7 +123,7 @@
             <h2 class="place__title">Кольский</h2>
             <img class="place__image" src="./images/m-r-760504-unsplash.jpg" alt="Кольский">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic
               </a>
             </div>
@@ -148,7 +148,7 @@
             <h2 class="place__title">Алтай</h2>
             <img class="place__image" src="./images/nail-gilfanov-527808-unsplash.jpg" alt="Алтай">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook
               </a>
             </div>
@@ -173,7 +173,7 @@
             <h2 class="place__title">Зимний Байкал</h2>
             <img class="place__image" src="./images/sergey-pesterev-1156037-unsplash.jpg" alt="Зимний Байкал">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
             </div>
             <div class="place__text">
@@ -196,7 +196,7 @@
             <h2 class="place__title">Карелия</h2>
             <img class="place__image" src="./images/vladimir-fedotov-652306-unsplash.jpg" alt="Карелия">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/
               </a>
             </div>
@@ -216,7 +216,7 @@
           </article>
         </section>
         <section class="cover">
-          <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
@@ -224,7 +224,9 @@
             </p>
           </a>
         </section>
+      </main>
         <footer class="footer">
+          <nav>
           <ul class="footer__links">
             <li>
               <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты
@@ -251,9 +253,9 @@
               </a>
             </li>
           </ul>
+          </nav>
           <p class="footer__copyright">© 2022. Канцеров Артур</p>
         </footer>
-      </main>
     </div>
   </body>
 </html>
